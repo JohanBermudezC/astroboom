@@ -46,7 +46,25 @@ import { Icon } from 'astro-icon/components'
 			</div>
 			
 		</div>
-		<Icon name="flagpack:co" size={64}/>
+		<div class="border-y-2 p-4">
+			<div class=" w-3/5 mx-auto container grid grid-cols-9">
+				<div> <Icon name= "mdi:chevron-left" size={32} class="ml-12 text-slate-500"/> </div>
+				<div class="flex space-x-3  "><Icon  class="rounded-xl" name="flagpack:br" size={36}/><p class="mt-1 font-medium text-stone-400">BRASIL</p></div>
+				<div class="flex space-x-3  "><Icon  class="rounded-xl" name="flagpack:br" size={36}/><p class="mt-1">BRASIL</p></div>
+				<div class="flex space-x-3  "><Icon  class="rounded-xl" name="flagpack:br" size={36}/><p class="mt-1">BRASIL</p></div>
+				<div class="flex space-x-3  "><Icon  class="rounded-xl" name="flagpack:br" size={36}/><p class="mt-1">BRASIL</p></div>
+				<div class="flex space-x-3  "><Icon  class="rounded-xl" name="flagpack:br" size={36}/><p class="mt-1">BRASIL</p></div>
+				<div class="flex space-x-3  "><Icon  class="rounded-xl" name="flagpack:br" size={36}/><p class="mt-1">BRASIL</p></div>
+				<div class="flex space-x-3  "><Icon  class="rounded-xl" name="flagpack:br" size={36}/><p class="mt-1">BRASIL</p></div>
+				<div ><Icon name="mdi:chevron-right" size={32}/></div>
+			</div>
+		</div>
+		
+		<!-- <div class="border-y-2 flex justify-center p-4  rounded-lg">
+			<Icon name="flagpack:co" size={36}/><p>COLOMBIA</p>
+			<Icon name="flagpack:br" size={36}/><p>BRASIL</p>
+		</div> -->
+		
 		<slot />
 
 		<footer  class="container">
